@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form id="form" class="form">
+    <div class="column-one">
+      <div class="form__field">
+        <label for="text" class="form__label">text:</label>
+        <input class="form__input" type="text" name="text" id="text">
+      </div>
+      <div class="form__field">
+        <label for="number" class="form__label">number:</label>
+        <input class="form__input" type="text" name="number" id="number">
+      </div>
+      <div class="form__field">
+        <label for="mail" class="form__label">e-mail:</label>
+        <input class="form__input" type="text" name="mail" id="mail">
+      </div>
+      <div class="form__field">
+        <label for="required" class="form__label required">required:</label>
+        <input class="form__input" type="text" name="required" id="required">
+      </div>
+      <div>
+        <div class="form__field">
+          <label for="disabled" class="form__label">disabled:</label>
+          <input class="form__input disabled" type="text" name="disabled" id="disabled" disabled>
+        </div>
+        <div class="form__field">
+          <label for="text-box" class="form__label"></label>
+          <input class="form__input text-box" type="text" name="text-box" id="text-box" placeholder="tu mensaje aqui:">
+        </div>
+      </div>
+    </div>
+    <div class="column-2">
+      <div class="form__field">
+        <legend>select simple:</legend>
+        <select name="options-selector" id="options-selector">
+          <option value="option-one">option 1</option>
+          <option value="option-two">option 2</option>
+          <option value="option-three">option 3</option>
+        </select>
+      </div>
+      <div class="form__field">
+        <legend>select multiple:</legend>
+        <select name="options-multiple" multiple>
+          <option value="option-one-multiple">option 1</option>
+          <option value="option-two-multiple">option 2</option>
+          <option value="option-three-multiple">option 3</option>
+        </select>
+      </div>
+      <div class="form__field">
+        <legend>radio group label:</legend>
+        <label for="ratio">
+          <input id="ratio" type="radio" name="option" value="option-1">option 1
+        </label>
+        <label for="ratio">
+          <input id="ratio" type="radio" name="option" value="option-2">option 2
+        </label>
+        <label for="ratio">
+          <input id="ratio" type="radio" name="option" value="option-3">option 3
+        </label>
+      </div>
+    </div>
+    <div class="column-3">
+      <div class="form__field">
+        <legend>radio group custom:</legend>
+        <span>
+
+          <input class="input-days" type="radio" name="dia" value="monday1" id="dia1">
+          <label for="dia1" class="form__label">monday</label>
+
+
+          <input class="input-days" type="radio" name="dia" value="tuesday1" id="dia2">
+          <label for="dia2" class="form__label">tuesday</label>
+
+
+          <input class="input-days" type="radio" name="dia" id="dia3" value="wednesday1">
+          <label for="dia3" class="form__label">wednesday</label>
+
+
+          <input class="input-days" type="radio" name="dia" value="thursday1" id="dia4">
+          <label for="dia4" class="form__label">thursday</label>
+
+
+          <input class="input-days" type="radio" name="dia" value="friday1" id="dia5">
+          <label for="dia5" class="form__label">friday</label>
+
+        </span>
+      </div>
+      <div class="form__field">
+        <legend>checkbox group custom:</legend>
+        <span>
+
+          <input class="input-options" type="checkbox" name="option" value="option">
+          <label for="option" class="form__label">option 1</label>
+
+
+          <input class="input-options" type="checkbox" name="option" value="option">
+          <label for="option" class="form__label">option 2</label>
+
+
+          <input class="input-options" type="checkbox" name="option" value="option">
+          <label for="option" class="form__label">option 3</label>
+
+
+          <input class="input-options" type="checkbox" name="option" value="option1">
+          <label for="option" class="form__label">option 4</label>
+        </span>
+      </div>
+      <div class="form__field">
+        <legend>checkout group custom:</legend>
+        <span>
+
+          <input class="input-days" type="checkbox" name="dia" value="monday2" id="dia-1">
+          <label for="dia-1" class="form__label">monday</label>
+
+
+          <input class="input-days" type="checkbox" name="dia" value="tuesday2" id="dia-2">
+          <label for="dia-2" class="form__label">tuesday</label>
+
+
+          <input class="input-days" type="checkbox" name="dia" id="dia-3" value="wednesday2">
+          <label for="dia-3" class="form__label">wednesday</label>
+
+
+          <input class="input-days" type="checkbox" name="dia" value="thursday2" id="dia-4">
+          <label for="dia-4" class="form__label">thursday</label>
+
+
+          <input class="input-days" type="checkbox" name="dia" value="friday2" id="dia-5">
+          <label for="dia-5" class="form__label">friday</label>
+
+        </span>
+
+      </div>
+      <div class="form__field">
+        <legend>toggle bar</legend>
+        <input class="inputs" type="checkbox" id="boton">
+        <label for="boton" class="boton form__label"></label>
+      </div>
+    </div>
+  </form>
+
+</body>
+
+</html>

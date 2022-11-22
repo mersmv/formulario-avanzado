@@ -1,0 +1,26 @@
+.form__field {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 50px;
+}
+
+.form__input {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border-color: white;
+}
+
+.text-box {
+    height: 100px;
+}
+
+.disabled {
+    background-color: lightgrey;
+}
+
+.column-one {
+    background-color: rgb(205, 174, 218);
+    width: 30%;
+}

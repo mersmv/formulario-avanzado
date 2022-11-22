@@ -1,0 +1,44 @@
+.column-3 {
+    background-color: rgb(205, 174, 218);
+    width: 40%;
+}
+
+.input-days {
+    display: none;
+}
+
+.input-days:checked+.form__label {
+    background-color: white;
+}
+
+.boton {
+    background-color: lightgray;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.boton::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+.inputs {
+    display: none;
+}
+
+.inputs:checked+.boton::after {
+    transition: transform;
+    transform: translateX(20px);
+    transition-duration: 1s;
+}
+
+.inputs:checked+.boton {
+    background-color: pink;
+}
